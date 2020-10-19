@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+    <!--CDN 링크 -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Youtube</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header_logo"><i class="fab fa-youtube"></i> Youtube</div>
+      <div class="header_menu">
+        <span>
+          <i class="fas fa-search"></i>
+          <i class="fas fa-bars"></i>
+        </span>
+      </div>
+    </header>
+    <main class="wrap">
+      <section class="contents">
+        <!-- video -->
+        <section class="player">
+          <video src="http://www.tomodevel.jp/material/video/disneyTour.mp4" controls muted="true">
+            해당 브라우저는 video 태그를 지원하지 않습니다.
+          </video>
+        </section>
+        <!-- info-->
+        <section class="info">
+          <!-- title -->
+          <div class="title">
+            <ul class="hashtag">
+              <li><a href="#">#Frontend</a></li>
+              <li><a href="#">#97BAEK</a></li>
+              <li><a href="#">#CloneCoding</a></li>
+            </ul>
+            <div class="titleAndButton">
+              <span
+                >Clone Coding: Youtube Mobile Website 유튜브 모바일 웹사이트 따라 만들기 | 프론트엔드 개발자 입문편:
+                HTML, CSS, JavaScript 드림코딩과 함께하는 프론트엔드 실전 입문편 </span
+              ><button><i class="fas fa-sort-down"></i></button>
+            </div>
+            <div class="views">1M views 1 month ago</div>
+          </div>
+          <!-- action -->
+          <div class="action">
+            <ul>
+              <li>
+                <button><i class="fas fa-thumbs-up"></i><span>1K</span></button>
+              </li>
+              <li>
+                <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+              </li>
+              <li>
+                <button><i class="fas fa-share"></i><span>Share</span></button>
+              </li>
+              <li>
+                <button><i class="fas fa-plus"></i><span>Save</span></button>
+              </li>
+              <li>
+                <button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button>
+              </li>
+            </ul>
+          </div>
+          <!-- channel -->
+          <div class="channel">
+            <div class="info_channel">
+              <img src="/img/unnamed.jpg" alt="" />
+              <div class="info_user">
+                <span class="name">97BAEK</span>
+                <span class="subscribers">1M subscribers</span>
+              </div>
+            </div>
+            <button class="subscribe">SUBSCRIBE</button>
+          </div>
+        </section>
+      </section>
+      <!-- upNext-->
+      <section class="upNext">
+        <p>Up next</p>
+        <div class="next">
+          <ul>
+            <li class="item">
+              <div class="img"><img src="/img/2.jpg" alt="" /></div>
+              <div class="metadata">
+                <span class="title">프론트엔드 강의</span>
+                <span class="channel">97BAEK</span>
+                <span class="views">83K views</span>
+              </div>
+              <button class="more"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+              <div class="img"><img src="/img/3.jpg" alt="" /></div>
+              <div class="metadata">
+                <span class="title">백엔드 강의</span>
+                <span class="channel">97BAEK</span>
+                <span class="views">83K views</span>
+              </div>
+              <button class="more"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+            <li class="item">
+              <div class="img"><img src="/img/4.jpg" alt="" /></div>
+              <div class="metadata">
+                <span class="title">풀스택 강의</span>
+                <span class="channel">97BAEK</span>
+                <span class="views">83K views</span>
+              </div>
+              <button class="more"><i class="fas fa-ellipsis-v"></i></button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
